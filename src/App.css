@@ -2,9 +2,86 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body, html{
+  background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+  
+}
+
+.main{
+  margin-top: 5%;
+  float: left;
+  justify-content:space-evenly;
+  margin-right: 4%; 
+  width: 40%;
+  min-height: 650px;
+  background: rgb(215, 233, 215);
+ 
+}
+
+.im{
+
+width: 60%;
+height: auto;
+
+}
+
+h1{
+  margin-top:0.1%;
+  font-weight: lighter;
+  background: rgb(124, 201, 116);
+  font-family:cursive;
+  text-shadow: 1px 1px #ddf0dd;
+  font-variant: small-caps;
+}
+
+h{
+  margin-top:0.1%;
+  font-size: 250%;
+  text-shadow: 2px 2px #ddf0dd;
+  background: rgb(178, 224, 160);
+  font-family:cursive;
+  text-shadow: 12px, 12px, 12px red;
+  font-variant: small-caps;
+}
+
+p{
+  font-family:cursive;
+  font-variant: small-caps;
+  text-shadow: 2px 2px #ddf0dd;
+}
+
+.recipe-active{
+ 
+  opacity: 0.7;
+ text-align: center;
+ max-width: 50%;
+ margin-left: 20%;
+ 
+  
+}
+
+.search-bar{
+  height: 35px;
+  width: 21%;
+  background: rgb(238, 243, 236);
+  border-style: hidden;
+}
+
+.btn{
+  height: 37px;
+  border-style: hidden;
+  cursor:pointer;
+  background: rgb(238, 243, 236);
+}
+.btn1{
+  height: 50px;
+  width: 170px;
+  cursor:pointer;
+  margin-bottom: 1%;
+}
+
+.recipe-hidden{
+  display:none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
